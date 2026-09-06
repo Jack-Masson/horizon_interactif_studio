@@ -4,7 +4,7 @@ const games = [
         id: 1,
         title: "Camping Horizon",
         description: "Installez vos campeurs, aménagez votre terrain, gérez votre équipe et faites grandir votre camping au cœur de paysages magnifiques.",
-        image: "https://raw.githubusercontent.com/Jack-Masson/HORIZON.INTERACTIF.STUDIO/refs/heads/main/logoch.png",
+        image: "https://raw.githubusercontent.com/Jack-Masson/horizon_interactif_studio/refs/heads/main/logoch.png",
         link: "https://jack-masson.github.io/campinghorizon.github.io/"
     }
     // Ajoutez vos autres jeux ici:
