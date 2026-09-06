@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Horizon Interactif Studio - Jeux Vidéo</title>
+				<link rel="stylesheet" href="styles.css">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar">
+			<div class="container">
+				<div class="logo">
+					<span class="logo-text">H.I.S</span>
+					<span class="logo-full">Horizon Interactif Studio</span>
+				</div>
+				<ul class="nav-menu" id="navMenu">
+					<li>
+						<a href="#accueil" class="nav-link">Accueil</a>
+					</li>
+					<li>
+						<a href="#jeux" class="nav-link">Nos Jeux</a>
+					</li>
+					<li>
+						<a href="#contact" class="nav-link">Contact</a>
+					</li>
+				</ul>
+				<div class="hamburger" id="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Section Héros -->
+		<section id="accueil" class="hero">
+			<div class="container">
+				<div class="hero-content">
+					<h1>Horizon Interactif Studio</h1>
+					<p class="tagline">Créons des mondes, vivons des aventures</p>
+					<p class="description">Bienvenue dans l'univers de H.I.S - où l'imagination devient réalité à travers des jeux captivants et innovants.</p>
+					<a href="#jeux" class="cta-button">Découvrir nos Jeux</a>
+				</div>
+				<div class="hero-visual">
+					<div class="circle-accent">
+						<img src="logo.png" alt="Logo Horizon Interactif Studio" class="logo-img">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Jeux -->
+		<section id="jeux" class="games-section">
+			<div class="container">
+				<h2>Nos Créations</h2>
+				<div class="games-grid" id="gamesGrid">
+					<!-- Les jeux seront générés par JavaScript -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Section À Propos -->
+		<section id="about" class="about-section">
+			<div class="container">
+				<h2>À Propos de H.I.S</h2>
+				<div class="about-content">
+					<div class="about-text">
+						<p>Horizon Interactif Studio est un studio de développement de jeux vidéo passionné par la création d'expériences de jeu unique et mémorable.</p>
+						<p>Notre mission : concevoir des jeux qui inspirent, divertissent et connectent les joueurs du monde entier.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Contact -->
+		<section id="contact" class="contact-section">
+			<div class="container">
+				<h2>Restons en Contact</h2>
+				<div class="contact-content">
+					<form class="contact-form" id="contactForm">
+						<input type="text" name="name" placeholder="Votre nom" required="">
+							<input type="email" name="email" placeholder="Votre email" required="">
+								<textarea name="message" placeholder="Votre message" rows="5" required=""></textarea>
+								<button type="submit" class="submit-button">Envoyer</button>
+							</form>
+					<div class="social-links">
+						<h3>Suivez-nous</h3>
+						<div class="social-icons">
+							<a href="https://discord.gg/BZCk7ngbtH" class="social-icon">Discord</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<p>&copy; 2024 Horizon Interactif Studio. Tous droits réservés.</p>
+				<p>H.I.S - Créons ensemble l'avenir du gaming</p>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
